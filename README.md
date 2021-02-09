@@ -1,7 +1,11 @@
 # River_Borders
 An redrawing of US state borders as dictated by the major riverways of North America
 
-I used pixel manipulation to redraw the lower 48 using the major water ways of North America. The final product can be found here https://github.com/garesborn/River_Borders/blob/main/United_water_ways_of_america.png. Using County population and geographical coordinates data, I was able to calculate the population for each new state (source https://en.wikipedia.org/wiki/User:Michael_J/County_table).
+I used pixel manipulation to redraw the lower 48 using the major water ways of North America.
+
+![new_states_with_rivers](https://user-images.githubusercontent.com/65193347/107426350-16ab0700-6aee-11eb-8bd7-694341d7a414.png)
+
+Using County population and geographical coordinates data, I was able to calculate the population for each new state (source https://en.wikipedia.org/wiki/User:Michael_J/County_table).
 
 The biggest hurdle was converting the geographical coordinates of each county to a corresponding pixel on the working image. This was due to the wonky scaling behind the Mercator projection. After deriving the proper equations, (shown https://github.com/garesborn/River_Borders/blob/main/eqs.png and https://github.com/garesborn/River_Borders/blob/main/pixelconversion.PNG) I could easily allocate the correct county populations to the proper state. I attempted to create states of roughly similar populations, but unsurprisingly rivers don't run based on population densities.
 
