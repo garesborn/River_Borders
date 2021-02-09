@@ -1,5 +1,5 @@
 # River_Borders
-An exploration of US state borders as dictated by the major riverways of North America
+An redrawing of US state borders as dictated by the major riverways of North America
 
 I used pixel manipulation to redraw the lower 48 using the major water ways of North America. The final product can be found here https://github.com/garesborn/River_Borders/blob/main/United_water_ways_of_america.png. Using County population and geographical coordinates data, I was able to calculate the population for each new state (source https://en.wikipedia.org/wiki/User:Michael_J/County_table).
 
