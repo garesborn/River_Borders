@@ -1,5 +1,5 @@
 # River_Borders
-## An redrawing of US state borders as dictated by the major riverways of North America.
+## A redrawing of US state borders as dictated by the major riverways of North America.
 
 I used pixel manipulation to redraw the lower 48 using the major water ways of North America.
 
